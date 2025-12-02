@@ -56,25 +56,6 @@ Cleaning powered by:
 - Manual correction mapping  
 - Unicode normalization (NFC)
 
-### 🧩 **5. Modular Architecture**
-This project follows a scalable structure:
-
-Task_4/
-│── app.py
-│── requirements.txt
-│── Dataset.csv
-
-├── templates/
-│ └── index.html
-
-├── static/
-│ ├── styles.css
-│ └── script.js
-
-└── visualizations/
-├── chart_generator.py
-└── city_stats.py
-
 Each component has a dedicated responsibility:
 - **Backend** → Flask routes, chart data, map data  
 - **Visualization Engine** → Plotly chart generator  
