@@ -1,0 +1,14 @@
+Flask==3.0.0
+pandas==2.2.0
+numpy==1.26.3
+plotly==5.18.0
+ftfy==6.3.1
+matplotlib==3.10.0
+scikit-learn==1.4.0
+
+# Map utilities
+geopy==2.4.1
+
+# These are required by leaflet.markercluster ONLY if you generate clusters server-side (optional)
+# Otherwise safe to keep
+requests==2.31.0

@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #eef1f6;
+}
+
+header {
+    background: #0e3d75;
+    color: white;
+    padding: 18px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* map container */
+#map-container {
+    position: relative;
+    margin: 20px;
+    height: 520px;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #d8dbe0;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+/* floating filter (visible, high z-index) */
+#floating-filter {
+    position: absolute;
+    bottom: 22px;
+    left: 22px;
+    z-index: 2200;
+    width: 240px;
+    background: white;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+    border: 1px solid #e0e6ef;
+}
+
+.filter-title {
+    color: #0e3d75;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+#floating-filter label {
+    display: block;
+    margin-top: 6px;
+    font-weight: 600;
+    color: #333;
+    font-size: 13px;
+}
+
+#floating-filter select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #cfd8e6;
+    background: #fff;
+}
+
+#floating-filter button {
+    margin-top: 10px;
+    width: 100%;
+    padding: 9px;
+    background: #0e3d75;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* charts area */
+.charts-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    justify-content: center;
+    padding: 28px;
+}
+
+/* chart container minimum size so Plotly has room for labels + modebar */
+.chart-card {
+    width: 30%;
+    min-width: 360px;
+    background: white;
+    padding: 28px 22px;
+    border-radius: 12px;
+    box-shadow: 0 6px 30px rgba(37,47,66,0.08);
+    border: 1px solid #e6ecf3;
+    box-sizing: border-box;
+}
+
+/* wide third chart */
+.chart-card.wide {
+    width: 65%;
+    min-width: 620px;
+}
+
+/* reserve more vertical room inside chart box */
+.chart-box, #chart1, #chart2, #chart3 {
+    min-height: 460px;
+}
+
+
+.chart-card.wide {
+    width: 65%;
+    min-width: 620px;
+}
+
+.chart-card h3 {
+    text-align: center;
+    color: #0e3d75;
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.chart-card {
+    min-height: 550px;
+}
+
+#chart1, #chart2, #chart3 {
+    min-height: 520px;
+}
