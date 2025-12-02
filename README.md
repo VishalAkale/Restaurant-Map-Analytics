@@ -63,14 +63,14 @@ Task_4/
 │── app.py
 │── requirements.txt
 │── Dataset.csv
-│
+
 ├── templates/
 │ └── index.html
-│
+
 ├── static/
 │ ├── styles.css
 │ └── script.js
-│
+
 └── visualizations/
 ├── chart_generator.py
 └── city_stats.py
