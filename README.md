@@ -52,8 +52,7 @@ All charts use:
 Includes automatic correction of corrupted UTF-8 text in dataset:
 
 
-Cleaning powered by:
-- `ftfy`  
+Cleaning powered by: 
 - Manual correction mapping  
 - Unicode normalization (NFC)
 
@@ -112,7 +111,7 @@ Each component has a dedicated responsibility:
 
 ### **1. Clone the Repository**
 
-git clone https://github.com/YOUR_USERNAME/Restaurant-Map-Analytics.git
+git clone https://github.com/VishalAkale/Restaurant-Map-Analytics.git
 cd Restaurant-Map-Analytics
 Create a Virtual Environment
 python -m venv venv
